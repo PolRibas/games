@@ -1,0 +1,31 @@
+{
+  "python.condaPath": "${env:PYTHON_AMPHORA_BIN}",
+  "python.linting.enabled": true,
+  "workbench.colorCustomizations": {
+    "contrastActiveBorder": "#8b80ea",
+    "focusBorder": "#8b80ea",
+    "foreground": "#ffffff",
+    "list.activeSelectionBackground": "#8b80ea",
+    "list.activeSelectionForeground": "#ffffff",
+    "activityBar.background": "#8b80ea",
+    "activityBar.foreground": "#272727",
+    "activityBarBadge.background": "#272727",
+    "activityBarBadge.foreground": "#8b80ea",
+    // "sideBar.background": "#d3d4d81c",
+    "sideBar.foreground": "#ffffff",
+    "sideBar.dropBackground": "#ffffff",
+    "sideBarSectionHeader.background": "#ef56db",
+    "sideBarSectionHeader.foreground": "#272727",
+    "statusBar.background": "#000000",
+  },
+  "python.linting.pycodestyleEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.analysis.extraPaths": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true
+}

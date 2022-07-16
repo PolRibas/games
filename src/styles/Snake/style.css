@@ -1,0 +1,14 @@
+canvas {
+    border          : 2px solid rgb(49, 201, 49);
+    box-shadow      : 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(197, 243, 206);
+    padding         : 0;
+
+}
+
+.last-item {
+    font-weight: 800;
+}
+table tr{
+    margin-right: 10px;
+}

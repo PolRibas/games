@@ -1,0 +1,26 @@
+.game-list {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    padding        : 50px;
+}
+
+.game-card {
+    padding         : 10px;
+    background-color: rgb(88, 133, 246);
+    border-radius   : 10px;
+    margin          : 10px;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+}
+
+.game-list a {
+    text-decoration: none;
+}
+
+.game-card:hover {
+    opacity: 0.5;
+}
